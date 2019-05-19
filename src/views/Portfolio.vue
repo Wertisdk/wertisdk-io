@@ -1,0 +1,11 @@
+<template>
+  <div class="page page--portfolio">
+	  <h1>Portfolio</h1>
+  </div>
+</template>
+
+<script>
+export default {
+	name: 'portfolio'
+};
+</script>

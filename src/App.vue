@@ -1,12 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <o-navbar></o-navbar>
     <router-view/>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import oNavbar from '@/components/organisms/o-navbar.vue';
+
+export default {
+  name: 'app',
+  components: {
+    oNavbar,
+  },
+};
+</script>
 
 <style lang="scss">
 #app {
